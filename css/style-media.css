@@ -1,0 +1,373 @@
+@media (max-width: 1750px) {
+    .card:nth-child(1) {
+        transform: rotate(-90deg) translateX(400px) translateY(50px);
+    }
+}
+@media (max-width: 1650px) {
+    .card:nth-child(1) {
+        transform: rotate(-90deg) translateX(400px) translateY(0px);
+    }
+}
+@media (max-width: 1500px) {
+    .card:nth-child(1) {
+        transform: rotate(-90deg) translateX(400px) translateY(-50px);
+    }
+}
+@media (max-width: 1400px) {
+    .card:nth-child(1) {
+        transform: rotate(-90deg) translateX(400px) translateY(-200px);
+    }
+}
+@media (max-width: 1300px) {
+    .card:nth-child(1) {
+        transform: rotate(-90deg) translateX(400px) translateY(-350px);
+    }
+    .text {
+        position: relative;
+        z-index: 1004;
+    }
+    .header-center {
+        z-index: 1005;
+    }
+}
+@media (max-width: 1200px) {
+    .card:nth-child(1) {
+        transform: rotate(-90deg) translateX(400px) translateY(-550px);
+    }
+    .text {
+        position: relative;
+        z-index: 1004;
+    }
+    .header-center {
+        z-index: 1005;
+    }
+}
+@media (max-width: 990px) {
+    .cards-for-desktop {
+        display: none;
+    }
+
+    .swiper-container-reviews {
+        overflow: hidden;
+    }
+
+    .cards-for-mobile {
+        display: block;
+    }
+    .card-for-mobile:nth-child(1) {
+        transform: rotate(-90deg);
+    }
+    .card-for-mobile {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .card-for-mobile img{
+        max-width: 600px;
+    }
+    .b-buttons {
+        flex-direction: column;
+    }
+    .nav {
+        display: none;
+    }
+    .header {
+        position: relative;
+        z-index: 1010;
+        justify-content: space-between;
+    }
+    .header-center {
+        z-index: 1010;
+    }
+    .mob-line {
+        height: 3px;
+        background-color: white;
+        /* gap: 32px; */
+        display: flex;
+        margin-bottom: 7px;
+        transition: all 0.3s ease;
+    }
+    .mobile-burger {
+        width: 30px;
+        display: block;
+    }
+    .advantages-cards-container {
+        flex-direction: column;
+    }
+    .advantages-card {
+        padding: 20px;
+    }
+    .adv-card-text {
+        padding-top: 15px;
+    }
+    .advantages-cards-container {
+        padding: 20px;
+    }
+    .help-for-give-cert {
+        flex-direction: column;
+    }
+    .take-a-nominal-button a {
+        padding: 30px 70px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+    .take-a-nominal-button {
+        padding: 20px;
+    }
+    .faq-block {
+        padding: 20px;
+    }
+    .nav-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-nav-and-logo {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-soc-img svg {
+        width: 45px;
+        height: 45px;
+    }
+    .footer-copyright p {
+        max-width: 200px;
+    }
+    .mobile-burger-open {
+        display: none;
+        background-color: #211E21;
+        padding: 20px;
+    }
+    .mobile-burger-open a {
+        text-decoration: none;
+        border: solid 1px white;
+        color: white;
+        padding: 10px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+    }
+    .mobile-burger.active + .mobile-burger-open {
+        display: block;
+    }
+    .mobile-burger.active .middle {
+        opacity: 0;
+    }
+
+    .mobile-burger.active .top {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .mobile-burger.active .bottom {
+        transform: translateY(-11px) rotate(-45deg);
+    }
+    .mobile-burger-open.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        border-radius: 50px 50px;
+    }
+    .main-block-center {
+        padding: 20px;
+    }
+}
+@media (max-width: 700px) {
+    .text h1 {
+        font-family: 'SoyuzGrotesk', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 32.4px;
+        letter-spacing: -1.5%;
+        max-width: 330px;
+    }
+    .text p {
+        font-family: "Montserrat", serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21.33px;
+        letter-spacing: 0%;
+        text-align: justify;
+        max-width: 320px;
+    }
+    .card-for-mobile img {
+        max-width: 420px;
+    }
+    .b-buttons button {
+        font-family: "Montserrat", serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21.94px;
+        letter-spacing: 0%;
+    }
+    .advantages-head h2 {
+        font-family: 'SoyuzGrotesk', sans-serif;
+        font-weight: 700;
+        font-size: 40.09px;
+        line-height: 45.3px;
+        letter-spacing: -1.5%;
+    }
+    .advantages-head svg {
+        width: 19px;
+        height: 19px;
+    }
+    .adv-card-text p {
+        font-family: "Montserrat", serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 27.12px;
+        letter-spacing: 0%;
+    }
+    .adv-card-text span {
+        font-family: 'Archivo', serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21.33px;
+        letter-spacing: 0%;
+    }
+    .take-a-nominal-head h2 {
+        font-family: "Montserrat", serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 27.12px;
+        letter-spacing: -1.5%;
+        text-align: center;
+    }
+    .swiper-cards-block {
+        background-repeat: no-repeat;
+        max-width: 330px;
+        height: 89%;
+    }
+    .custom-button-next {
+        display: none;
+    }
+    .custom-button-prev {
+        display: none;
+    }
+    .take-a-nominal-button a {
+        font-family: "Montserrat", serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21.94px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .reviews-block-head h2 {
+        font-family: "Montserrat", serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 27.12px;
+        letter-spacing: -1.5%;
+        text-align: center;
+    }
+    .text-review p {
+        font-family: "Montserrat", serif;
+        font-weight: 400;
+        font-size: 12.89px;
+        line-height: 14.84px;
+        letter-spacing: -0.1%;
+    }
+    .name-review p {
+        font-family: "Montserrat", serif;
+        font-weight: 700;
+        font-size: 9.28px;
+        line-height: 13.61px;
+        letter-spacing: 0px;
+    }
+    .how-to-give-head h2 {
+        font-family: "Montserrat", serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 27.12px;
+        letter-spacing: -1.5%;
+        text-align: center;
+    }
+    .how-to-give-head p {
+        font-family: "Montserrat", serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21.33px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .give-cert-button img {
+        max-width: 330px;
+    }
+    .help-block p {
+        font-family: "Montserrat", serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22.6px;
+        letter-spacing: 0%;
+    }
+    .help-block span {
+        font-family: "Montserrat", serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21.33px;
+        letter-spacing: 0%;
+    }
+    .faq-head h2 {
+        font-family: "Montserrat", serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 27.12px;
+        letter-spacing: -1.5%;
+        text-align: center;
+    }
+    .faq-card-flex p {
+        font-family: "Montserrat", serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36.16px;
+        letter-spacing: 0%;
+    }
+    .faq-card-otvet p {
+        font-family: "Montserrat", serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 36.16px;
+        letter-spacing: 0%;
+    }
+    .nav-footer a {
+        font-family: "Montserrat", serif;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21.94px;
+        letter-spacing: 0%;
+
+    }
+    .footer-copyright p {
+        font-family: "Montserrat", serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -1%;
+        text-align: center;
+    }
+    .header-center {
+        justify-content: flex-start;
+    }
+    .advantages-head {
+        height: 50px;
+    }
+    .advantages-head svg {
+        margin-top: 0px !important;
+    }
+    .black-block {
+        padding-bottom: 20px;
+    }
+    .take-a-nominal {
+        padding-top: 40px;
+    }
+    .swiper-with-cards {
+        height: 250px;
+    }
+    .faq-head {
+        padding-bottom: 15px;
+    }
+}
